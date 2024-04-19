@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, blue, purple);
+}
+
+.container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  transition: all 0.3s ease;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group input[type="text"],
+.input-group input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.generateBtn {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.generateBtn:hover {
+  background-color: #45a049;
+}
+
+.passwords-list {
+  margin-top: 20px;
+}
+
+.passwords-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.passwords-list li {
+  margin-bottom: 5px;
+}
